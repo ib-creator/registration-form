@@ -1,0 +1,152 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(17, 17, 17);
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+/* brand image and text */
+
+.background-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* text */
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-container h1 {
+    color: white;
+    font-weight: 100;
+    font-weight: normal;
+    font-weight: 700;
+}
+
+.text-container p {
+    color: rgb(27, 134, 179);
+
+}
+
+
+
+
+
+.brand-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 57vh;
+    position: relative;
+    opacity: 0.5;
+    filter: brightness(29%);
+    width: 100%;
+}
+
+/* end */
+
+/* information boxes and sign up container */
+
+
+h2 {
+    color: #ffffffbe;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+
+/* the div container that holds everything below */
+.benefits-container {
+    display: flex;
+
+}
+
+/* container that holds the icons */
+.icon-container {
+    display: inline-grid;
+
+}
+
+/* the headings for the benefits sections */
+.benefits-text h4 {
+    margin-left: 16px;
+
+}
+
+.benefits-text {
+    margin-top: -17px;
+    color: #ffffffbe;
+}
+
+
+
+.benefits-desc {
+    margin-left: 16px;
+    margin-top: -18px;
+}
+
+
+.left-box p {
+    color: rgb(27, 134, 179);
+}
+
+
+
+/* input form / right box  */
+
+.form-box {
+    height: 473px;
+    width: 526px;
+    background-color: transparent;
+}
+
+form {
+    padding-left: 50px;
+    padding-top: 35px;
+}
+
+form {
+    color: #ffffffbe;
+
+}
+
+form h5 {
+    color: #ffffffbe;
+}
+
+.input-box {
+    width: 417px;
+    height: 45px;
+}
+
+
+button {
+    width: 425px;
+    height: 35px;
+    border: 0px none;
+    background-color: rgb(181, 193, 193);
+    cursor: pointer;
+    color: #ffffffbe;
+}
+
+#error {
+    color: white;
+    font-size: 22px;
+}
