@@ -146,7 +146,21 @@ button {
     color: #ffffffbe;
 }
 
-#error {
-    color: white;
-    font-size: 22px;
+
+
+/* review box */
+
+.review-box {
+    text-align: center;
+}
+
+
+.review-box h1 {
+    color: #ffffffbe;
+    font-style: italic;
+}
+
+
+.review-box p {
+    color: #ffffffbe;
 }
